@@ -5,7 +5,7 @@ const OfferSection = () => {
   const ref = useReveal();
 
   return (
-    <section ref={ref} id="offer" className="py-10 md:py-24 text-center px-4 md:px-0 relative"
+    <section ref={ref} id="offer" className="py-8 md:py-16 text-center px-4 md:px-0 relative"
       style={{
         background: "radial-gradient(ellipse at center, hsl(150 30% 12%) 0%, hsl(150 30% 8%) 100%)"
       }}
@@ -29,19 +29,69 @@ const OfferSection = () => {
           do que um lanche na padaria.
         </p>
 
-        <div className="reveal-element text-text-secondary text-xl md:text-2xl line-through">R$ 120,00</div>
-        <div className="reveal-element font-display font-black text-gold text-[clamp(50px,12vw,90px)] leading-none my-2">
-          R$ 27,90
+        <div className="reveal-element bg-bg-card border border-gold-dark/50 rounded-lg p-6 md:p-10 max-w-[800px] mx-auto mb-10 text-left shadow-[0_10px_40px_-10px_rgba(212,175,55,0.1)]">
+          <h3 className="font-display text-xl md:text-2xl text-gold mb-6 font-semibold text-center">
+            Veja exatamente o que você recebe hoje, com acesso imediato:
+          </h3>
+          <ul className="space-y-4 md:space-y-6">
+            <li className="flex items-start gap-4">
+              <div className="mt-1 flex-shrink-0 w-6 h-6 rounded-full bg-gold/10 flex items-center justify-center border border-gold/30">
+                <svg className="w-3.5 h-3.5 fill-gold" viewBox="0 0 20 20">
+                  <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
+                </svg>
+              </div>
+              <p className="text-foreground text-sm md:text-base leading-relaxed">
+                <strong className="text-gold-light font-display tracking-wide">Mini Treinamento (8 Aulas Rápidas):</strong> Direto ao ponto, para você assistir no celular durante o almoço ou no ônibus.
+              </p>
+            </li>
+            <li className="flex items-start gap-4">
+              <div className="mt-1 flex-shrink-0 w-6 h-6 rounded-full bg-gold/10 flex items-center justify-center border border-gold/30">
+                <svg className="w-3.5 h-3.5 fill-gold" viewBox="0 0 20 20">
+                  <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
+                </svg>
+              </div>
+              <p className="text-foreground text-sm md:text-base leading-relaxed">
+                <strong className="text-gold-light font-display tracking-wide">Teste dos 5 Pensamentos Sabotadores:</strong> Descubra na hora qual "voz automática" está destruindo o seu dinheiro e as suas atitudes.
+              </p>
+            </li>
+            <li className="flex items-start gap-4">
+              <div className="mt-1 flex-shrink-0 w-6 h-6 rounded-full bg-gold/10 flex items-center justify-center border border-gold/30">
+                <svg className="w-3.5 h-3.5 fill-gold" viewBox="0 0 20 20">
+                  <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
+                </svg>
+              </div>
+              <p className="text-foreground text-sm md:text-base leading-relaxed">
+                <strong className="text-gold-light font-display tracking-wide">O Decodificador de Emoções:</strong> A técnica simples para você parar de ser dominado pelo cansaço mental, pelo estresse e pela ansiedade.
+              </p>
+            </li>
+            <li className="flex items-start gap-4">
+              <div className="mt-1 flex-shrink-0 w-6 h-6 rounded-full bg-gold/10 flex items-center justify-center border border-gold/30">
+                <svg className="w-3.5 h-3.5 fill-gold" viewBox="0 0 20 20">
+                  <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
+                </svg>
+              </div>
+              <p className="text-foreground text-sm md:text-base leading-relaxed">
+                <strong className="text-gold-light font-display tracking-wide">A Roda da sua Mente:</strong> O mapa visual rápido para encontrar exatamente onde a sua energia está travada hoje.
+              </p>
+            </li>
+          </ul>
+          
+          <div className="mt-8 pt-6 border-t border-gold-dark/30 text-center">
+            <div className="text-text-secondary text-lg md:text-xl line-through decoration-red-500/50">R$ 120,00</div>
+            <div className="font-display font-black text-gold text-[clamp(40px,10vw,70px)] leading-none my-2 drop-shadow-[0_0_15px_rgba(212,175,55,0.2)]">
+              R$ 27,90
+            </div>
+            <div className="inline-flex flex-wrap justify-center gap-3 md:gap-5 px-5 md:px-8 py-2 md:py-3 mb-6 text-xs md:text-sm text-gold-light font-semibold">
+              <span className="flex items-center gap-1.5"><div className="w-1.5 h-1.5 bg-gold rounded-full" /> Pagamento único</span>
+              <span className="flex items-center gap-1.5"><div className="w-1.5 h-1.5 bg-gold rounded-full" /> Sem mensalidades</span>
+              <span className="flex items-center gap-1.5"><div className="w-1.5 h-1.5 bg-gold rounded-full" /> Acesso imediato</span>
+            </div>
+            
+            <a href="#" className="btn-cta text-sm md:text-base !px-8 !py-5 md:!px-12 md:!py-6 w-full sm:w-auto shadow-[0_0_30px_-5px_rgba(212,175,55,0.4)]" aria-label="Acessar o treinamento agora">
+              QUERO ACESSAR AGORA
+            </a>
+          </div>
         </div>
-        <div className="reveal-element inline-flex flex-wrap justify-center gap-3 md:gap-5 border border-gold-dark px-5 md:px-8 py-2 md:py-3 mb-8 md:mb-10 text-xs md:text-sm text-gold-light">
-          <span>pagamento único</span>
-          <span>sem mensalidades</span>
-          <span>acesso imediato</span>
-        </div>
-        <br />
-        <a href="#" className="btn-cta reveal-element text-xs md:text-sm !px-6 !py-4 md:!px-10 md:!py-5" aria-label="Acessar o treinamento agora">
-          QUERO ACESSAR AGORA
-        </a>
 
         {/* Security icons */}
         <div className="reveal-element flex justify-center gap-6 md:gap-10 mt-8 md:mt-10 opacity-60">

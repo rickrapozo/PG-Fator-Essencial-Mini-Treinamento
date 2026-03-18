@@ -5,7 +5,7 @@ const RiskBioSection = () => {
   const ref = useReveal();
 
   return (
-    <section ref={ref} className="py-10 md:py-24 bg-section-primary px-4 md:px-0">
+    <section ref={ref} className="py-8 md:py-16 bg-section-primary px-4 md:px-0">
       <div className="container">
         {/* Guarantee */}
         <div className="reveal-element border-4 border-double border-gold p-6 md:p-16 max-w-[800px] mx-auto mb-12 md:mb-24 text-center">
@@ -26,11 +26,11 @@ const RiskBioSection = () => {
 
         {/* Bio */}
         <div className="reveal-element grid grid-cols-1 md:grid-cols-[300px_1fr] gap-8 md:gap-16 items-center mt-12 md:mt-20">
-          <div className="w-[180px] h-[180px] md:w-[300px] md:h-[300px] rounded-full border-2 border-gold flex items-center justify-center mx-auto"
-            style={{ background: "linear-gradient(45deg, hsl(148 30% 12%), hsl(39 69% 31%))" }}
-          >
-            <span className="font-display text-5xl md:text-8xl text-gold">RB</span>
-          </div>
+          <img 
+            src="/Ricardo.webp" 
+            alt="Ricardo Borges"
+            className="w-[180px] h-[180px] md:w-[300px] md:h-[300px] rounded-full border-2 border-gold object-cover mx-auto shadow-[0_0_30px_rgba(212,175,55,0.2)]"
+          />
           <div className="text-center md:text-left">
             <h2 className="font-display font-bold text-2xl md:text-3xl text-gold mb-3 md:mb-4">Ricardo Borges</h2>
             <div className="flex flex-wrap gap-2 mb-4 md:mb-5 justify-center md:justify-start">

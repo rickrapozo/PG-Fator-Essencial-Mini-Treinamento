@@ -38,7 +38,7 @@ const MechanismSection = () => {
   }, []);
 
   return (
-    <section ref={ref} className="py-10 md:py-24 bg-section-secondary relative overflow-hidden px-4 md:px-0">
+    <section ref={ref} className="py-8 md:py-16 bg-section-secondary relative overflow-hidden px-4 md:px-0">
       {/* Giant 95% background */}
       <span
         ref={triggerRef}

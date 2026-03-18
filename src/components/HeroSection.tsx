@@ -7,7 +7,7 @@ const HeroSection = () => {
   return (
     <section
       ref={ref}
-      className="relative min-h-screen pt-16 md:pt-36 pb-12 md:pb-20 text-center px-4 md:px-0"
+      className="relative pt-16 md:pt-28 pb-8 md:pb-12 text-center px-4 md:px-0"
       style={{
         background: "radial-gradient(circle at center, hsl(150 30% 10%) 0%, hsl(144 33% 5%) 100%)"
       }}>
@@ -34,9 +34,9 @@ const HeroSection = () => {
         </p>
 
         {/* Video placeholder */}
-        <div className="reveal-element w-full max-w-[760px] aspect-video bg-black mx-auto mb-8 md:mb-12 border border-gold-dark flex items-center justify-center relative shadow-[0_30px_60px_-20px_rgba(0,0,0,0.8)]">
-          <div className="w-14 h-14 md:w-20 md:h-20 border-2 border-gold rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 hover:bg-gold/10 cursor-pointer">
-            <svg viewBox="0 0 24 24" width="28" height="28" className="fill-gold ml-1 md:w-10 md:h-10">
+        <div className="reveal-element w-full max-w-[280px] sm:max-w-[320px] aspect-[9/16] bg-black mx-auto mb-8 md:mb-12 border border-gold-dark flex items-center justify-center relative shadow-[0_30px_60px_-20px_rgba(0,0,0,0.8)] rounded-xl overflow-hidden">
+          <div className="w-14 h-14 md:w-16 md:h-16 border-2 border-gold rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 hover:bg-gold/10 cursor-pointer">
+            <svg viewBox="0 0 24 24" width="24" height="24" className="fill-gold ml-1 md:w-8 md:h-8">
               <path d="M8 5v14l11-7z" />
             </svg>
           </div>

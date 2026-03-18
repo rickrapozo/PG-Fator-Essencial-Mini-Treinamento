@@ -34,7 +34,7 @@ const SolutionSection = () => {
   const ref = useReveal();
 
   return (
-    <section ref={ref} className="py-10 md:py-24 bg-section-primary px-4 md:px-0">
+    <section ref={ref} className="py-8 md:py-16 bg-section-primary px-4 md:px-0">
       <div className="container">
         <div className="text-center">
           <h2 className="reveal-element font-display font-bold text-2xl md:text-4xl text-foreground inline-block relative mb-10 md:mb-16">
