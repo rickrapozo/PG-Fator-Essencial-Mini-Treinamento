@@ -7,21 +7,21 @@ const HeroSection = () => {
   return (
     <section
       ref={ref}
-      className="relative min-h-screen pt-16 md:pt-36 pb-12 md:pb-20 text-center"
+      className="relative min-h-screen pt-36 pb-20 text-center"
       style={{
         background: "radial-gradient(circle at center, hsl(150 30% 10%) 0%, hsl(144 33% 5%) 100%)"
       }}>
       
       {/* Art deco corner ornaments */}
-      <div className="absolute top-5 left-5 w-24 h-24 border-t border-l border-gold-dark" />
-      <div className="absolute top-5 right-5 w-24 h-24 border-t border-r border-gold-dark" />
+      <div className="absolute top-5 left-5 w-24 h-24 border-t border-l border-gold-dark py-0 my-[77px]" />
+      <div className="absolute top-5 right-5 w-24 h-24 border-t border-r border-gold-dark my-[77px]" />
 
-      <div className="container">
-        <span className="reveal-element block font-accent text-lg text-gold mb-5">
+      <div className="container my-[5px]">
+        <span className="reveal-element block font-accent text-gold mb-5 my-0 text-sm">
           Para você que trabalha duro o mês inteiro, mas sente que está apenas 'sobrevivendo'...
         </span>
 
-        <h1 className="reveal-element font-display font-black text-foreground leading-[1.1] mb-8 text-2xl md:text-5xl">
+        <h1 className="reveal-element font-display text-foreground leading-[1.1] mb-8 my-[7px] font-semibold text-4xl">
           Por que algumas pessoas{" "}
           <em className="font-display italic text-gold">prosperam</em>, enquanto você acorda
           cansado, trabalha duro e a sua vida parece andar em círculos?
@@ -43,7 +43,7 @@ const HeroSection = () => {
         </div>
 
         <a href="#offer" className="btn-cta reveal-element" aria-label="Acessar o treinamento por R$ 27,90">
-          QUERO DESCOBRIR O QUE ESTÁ ME TRAVANDO POR APENAS R$ 27,90
+          QUERO DESCOBRIR O QUE ESTÁ ME TRAVANDO
         </a>
 
         <div className="reveal-element">
