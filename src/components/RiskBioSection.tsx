@@ -5,15 +5,15 @@ const RiskBioSection = () => {
   const ref = useReveal();
 
   return (
-    <section ref={ref} className="py-12 md:py-24 bg-section-primary">
+    <section ref={ref} className="py-10 md:py-24 bg-section-primary px-4 md:px-0">
       <div className="container">
         {/* Guarantee */}
-        <div className="reveal-element border-4 border-double border-gold p-12 md:p-16 max-w-[800px] mx-auto mb-24 text-center">
-          <svg viewBox="0 0 24 24" className="w-20 h-20 fill-gold mx-auto mb-5">
+        <div className="reveal-element border-4 border-double border-gold p-6 md:p-16 max-w-[800px] mx-auto mb-12 md:mb-24 text-center">
+          <svg viewBox="0 0 24 24" className="w-14 h-14 md:w-20 md:h-20 fill-gold mx-auto mb-4 md:mb-5">
             <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z" />
           </svg>
-          <h2 className="font-display font-bold text-3xl text-gold mb-4">7 DIAS DE GARANTIA</h2>
-          <p className="text-foreground text-lg">
+          <h2 className="font-display font-bold text-2xl md:text-3xl text-gold mb-3 md:mb-4">7 DIAS DE GARANTIA</h2>
+          <p className="text-foreground text-sm md:text-lg">
             Seu Risco é Zero. Assista às aulas. Faça o teste. Se em 7 dias você achar que não serviu
             para nada e que a sua mente continuou a mesma, você aperta um botão e eu devolvo os seus
             R$ 27,90. O risco é todo meu.
@@ -25,25 +25,25 @@ const RiskBioSection = () => {
         </div>
 
         {/* Bio */}
-        <div className="reveal-element grid grid-cols-1 md:grid-cols-[300px_1fr] gap-16 items-center mt-20">
-          <div className="w-[250px] h-[250px] md:w-[300px] md:h-[300px] rounded-full border-2 border-gold flex items-center justify-center mx-auto"
+        <div className="reveal-element grid grid-cols-1 md:grid-cols-[300px_1fr] gap-8 md:gap-16 items-center mt-12 md:mt-20">
+          <div className="w-[180px] h-[180px] md:w-[300px] md:h-[300px] rounded-full border-2 border-gold flex items-center justify-center mx-auto"
             style={{ background: "linear-gradient(45deg, hsl(148 30% 12%), hsl(39 69% 31%))" }}
           >
-            <span className="font-display text-7xl md:text-8xl text-gold">RB</span>
+            <span className="font-display text-5xl md:text-8xl text-gold">RB</span>
           </div>
           <div className="text-center md:text-left">
-            <h2 className="font-display font-bold text-3xl text-gold mb-4">Ricardo Borges</h2>
-            <div className="flex flex-wrap gap-2 mb-5 justify-center md:justify-start">
+            <h2 className="font-display font-bold text-2xl md:text-3xl text-gold mb-3 md:mb-4">Ricardo Borges</h2>
+            <div className="flex flex-wrap gap-2 mb-4 md:mb-5 justify-center md:justify-start">
               {["Terapeuta Emocional", "Neurociência", "PNL", "Psicanálise"].map((badge) => (
                 <span
                   key={badge}
-                  className="border border-gold-dark rounded-full px-4 py-1 text-xs text-gold-light"
+                  className="border border-gold-dark rounded-full px-3 md:px-4 py-1 text-[10px] md:text-xs text-gold-light"
                 >
                   {badge}
                 </span>
               ))}
             </div>
-            <p className="text-foreground leading-relaxed">
+            <p className="text-foreground leading-relaxed text-sm md:text-base">
               Eu me chamo Ricardo Borges. Sou Terapeuta Emocional, com formações em Neurociência, PNL
               (Programação Neurolinguística) e Psicanálise, e sou o criador do Fator Essencial -
               Método 5Ps. Minha missão aqui não é falar difícil ou ensinar teorias que você não usará
@@ -55,8 +55,8 @@ const RiskBioSection = () => {
         </div>
 
         {/* Urgency */}
-        <div className="reveal-element border-l-4 border-[hsl(15_70%_35%)] p-8 bg-[hsl(15_70%_35%/0.05)] my-10">
-          <p className="text-foreground">
+        <div className="reveal-element border-l-4 border-[hsl(15_70%_35%)] p-5 md:p-8 bg-[hsl(15_70%_35%/0.05)] my-8 md:my-10">
+          <p className="text-foreground text-sm md:text-base">
             <strong>Atenção:</strong> Esse treinamento foi desenvolvido para ser 100% prático, focando
             em identificar a causa do problema. Mas tome uma decisão agora, porque cada dia que passa
             você perde energia, dinheiro e saúde. O único risco real é você fechar esta página,
@@ -66,8 +66,8 @@ const RiskBioSection = () => {
           </p>
         </div>
 
-        <div className="text-center mt-16">
-          <a href="#offer" className="btn-cta btn-cta-large reveal-element" aria-label="Destravar minha mente por R$ 27,90">
+        <div className="text-center mt-10 md:mt-16">
+          <a href="#offer" className="btn-cta btn-cta-large reveal-element text-sm md:text-lg !px-8 !py-5 md:!px-16 md:!py-6" aria-label="Destravar minha mente por R$ 27,90">
             SIM, QUERO DESTRAVAR MINHA MENTE POR R$ 27,90
           </a>
         </div>
