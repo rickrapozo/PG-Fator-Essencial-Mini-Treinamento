@@ -5,7 +5,7 @@ const RiskBioSection = () => {
   const ref = useReveal();
 
   return (
-    <section ref={ref} className="py-24 bg-section-primary">
+    <section ref={ref} className="py-12 md:py-24 bg-section-primary">
       <div className="container">
         {/* Guarantee */}
         <div className="reveal-element border-4 border-double border-gold p-12 md:p-16 max-w-[800px] mx-auto mb-24 text-center">

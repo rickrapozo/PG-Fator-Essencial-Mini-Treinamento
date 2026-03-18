@@ -7,7 +7,7 @@ const HeroSection = () => {
   return (
     <section
       ref={ref}
-      className="relative min-h-screen pt-36 pb-20 text-center"
+      className="relative min-h-screen pt-16 md:pt-36 pb-12 md:pb-20 text-center"
       style={{
         background: "radial-gradient(circle at center, hsl(150 30% 10%) 0%, hsl(144 33% 5%) 100%)"
       }}>
@@ -21,7 +21,7 @@ const HeroSection = () => {
           Para você que trabalha duro o mês inteiro, mas sente que está apenas 'sobrevivendo'...
         </span>
 
-        <h1 className="reveal-element font-display font-black text-foreground leading-[1.1] mb-8 text-5xl">
+        <h1 className="reveal-element font-display font-black text-foreground leading-[1.1] mb-8 text-2xl md:text-5xl">
           Por que algumas pessoas{" "}
           <em className="font-display italic text-gold">prosperam</em>, enquanto você acorda
           cansado, trabalha duro e a sua vida parece andar em círculos?

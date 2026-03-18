@@ -4,7 +4,7 @@ const OfferSection = () => {
   const ref = useReveal();
 
   return (
-    <section ref={ref} id="offer" className="py-24 bg-section-secondary text-center">
+    <section ref={ref} id="offer" className="py-12 md:py-24 bg-section-secondary text-center">
       <div className="container">
         <p className="reveal-element text-lg text-text-secondary max-w-[680px] mx-auto mb-8">
           Se você fosse pagar uma consulta individual comigo para descobrirmos tudo isso juntos, você
