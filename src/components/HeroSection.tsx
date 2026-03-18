@@ -7,7 +7,7 @@ const HeroSection = () => {
   return (
     <section
       ref={ref}
-      className="relative min-h-screen pt-36 pb-20 text-center"
+      className="relative min-h-screen pt-16 md:pt-36 pb-12 md:pb-20 text-center"
       style={{
         background: "radial-gradient(circle at center, hsl(150 30% 10%) 0%, hsl(144 33% 5%) 100%)"
       }}>
