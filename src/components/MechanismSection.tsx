@@ -58,12 +58,26 @@ const MechanismSection = () => {
           <p className="reveal-element text-sm md:text-lg text-text-secondary max-w-[680px] mx-auto">
             A ciência já comprovou que{" "}
             <span className="text-gold font-bold">{count}%</span> do que nós fazemos todos os dias é
-            controlado pelo nosso subconsciente. Ou seja: você age no 'piloto automático'.
+            controlado pelo nosso subconsciente. Ou seja: você age no 'piloto automático',{" "}
+            <span className="border-b-[2px] border-gold pb-[2px] text-foreground font-bold whitespace-nowrap">Sem Nem Perceber</span>.
+          </p>
+        </div>
+
+        {/* Bloco Elegante de Continuação */}
+        <div className="reveal-element relative max-w-[800px] mx-auto mt-10 md:mt-14 p-6 md:p-8 bg-black/40 border border-gold/20 text-center rounded-lg shadow-2xl">
+          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-20 h-[1px] bg-gold" />
+          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-20 h-[1px] bg-gold" />
+          
+          <p className="text-foreground/90 text-sm md:text-[17px] leading-[1.8]">
+            Desde a infância, o seu cérebro gravou regras e medos. Se você cresceu ouvindo que <span className="text-foreground font-semibold italic">"dinheiro é sujo"</span> ou sentindo que <span className="text-foreground font-semibold italic">"não era bom o suficiente"</span>, o seu cérebro gravou isso como uma verdade absoluta.
+          </p>
+          <p className="text-gold font-accent text-base md:text-[19px] leading-[1.6] mt-4 md:mt-6">
+            E é aqui que o ciclo da autossabotagem destrói os seus resultados. Existe uma engrenagem na sua mente chamada <span className="font-bold border-b border-gold/50 pb-1">Fator Essencial</span>. Ela funciona em 5 passos exatos:
           </p>
         </div>
 
         {/* Steps */}
-        <div className="relative max-w-[800px] mx-auto mt-10 md:mt-16">
+        <div className="relative max-w-[800px] mx-auto mt-10 md:mt-14">
           {/* Dashed line */}
           <div className="absolute left-[22px] md:left-[30px] top-0 bottom-0 w-px border-l border-dashed border-gold z-[1]" />
 

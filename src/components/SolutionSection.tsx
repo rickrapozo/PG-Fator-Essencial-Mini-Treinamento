@@ -8,7 +8,7 @@ const benefits = [
       </svg>
     ),
     title: "Os 5 Tipos de Pensamentos",
-    desc: "Vamos descobrir qual deles está tocando na sua cabeça todos os dias, como aquela música viciante que se repete.",
+    desc: "Vamos descobrir qual deles está tocando na sua cabeça todos os dias, como aquela música viciante que se repete, mesmo sem você querer.",
   },
   {
     icon: (
@@ -26,7 +26,7 @@ const benefits = [
       </svg>
     ),
     title: "O Mapa da sua Mente",
-    desc: "Você vai sair com um retrato claro do que precisa ser consertado para voltar a prosperar.",
+    desc: "Você vai sair com um retrato claro do que precisa ser consertado para voltar a prosperar em todas as áreas da sua vida.",
   },
 ];
 
@@ -41,11 +41,33 @@ const SolutionSection = () => {
             Como fazer um 'Raio-X' na sua mente e encontrar o problema
             <span className="absolute bottom-[-15px] left-0 w-[60%] h-[3px] bg-gradient-to-r from-gold via-gold-light to-gold" />
           </h2>
-          <p className="reveal-element text-sm md:text-lg text-text-secondary max-w-[680px] mx-auto mb-10 md:mb-16">
+          <p className="reveal-element text-sm md:text-lg text-text-secondary max-w-[680px] mx-auto mb-8 md:mb-12">
             Você não pode vencer um inimigo que não consegue ver. Para sair desse ciclo de cansaço e
             falta de dinheiro, o primeiro passo é identificar exatamente quais são os pensamentos e
             emoções que estão te travando.
           </p>
+
+          {/* Bloco Elegante do Produto */}
+          <div className="reveal-element relative bg-bg-card border border-gold/20 p-6 md:p-10 rounded-lg max-w-[840px] mx-auto mb-12 md:mb-16 text-left shadow-2xl overflow-hidden">
+            <div className="absolute top-0 left-0 w-1.5 h-full bg-gold" />
+            
+            <h3 className="font-display text-base md:text-xl text-gold/80 mb-2">
+              Foi por isso que eu criei o
+            </h3>
+            <h4 className="font-display text-2xl md:text-3xl lg:text-[34px] text-foreground font-bold leading-tight mb-4 md:mb-6">
+              Mini Treinamento: Identificando Padrões Sabotadores.
+            </h4>
+            
+            <p className="text-text-secondary text-sm md:text-[17px] leading-[1.8] mb-6">
+              Não é um curso longo com palavras difíceis. São aulas curtas, rápidas e direto ao ponto. Você pode assistir no celular, no caminho para o trabalho ou no seu horário de almoço.
+            </p>
+            
+            <div className="pt-5 md:pt-6 border-t border-gold/10">
+              <p className="text-gold font-accent text-[17px] md:text-[21px] leading-[1.6]">
+                Lá dentro, nós vamos fazer um diagnóstico da sua mente. Vou te mostrar:
+              </p>
+            </div>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-8">

@@ -24,8 +24,16 @@ const RiskBioSection = () => {
           <ArtDecoSeparator />
         </div>
 
+        {/* Bio Title */}
+        <div className="reveal-element text-center mt-12 md:mt-20 mb-8 md:mb-14">
+          <h2 className="font-display text-xl md:text-3xl text-foreground max-w-[800px] mx-auto leading-relaxed px-4 md:px-0">
+            Mas você pode estar se perguntando:<br className="hidden md:block" />
+            <span className="text-gold font-bold italic"> quem é você para me ensinar tudo isso?</span>
+          </h2>
+        </div>
+
         {/* Bio */}
-        <div className="reveal-element grid grid-cols-1 md:grid-cols-[300px_1fr] gap-8 md:gap-16 items-center mt-12 md:mt-20">
+        <div className="reveal-element grid grid-cols-1 md:grid-cols-[300px_1fr] gap-8 md:gap-16 items-center">
           <img 
             src="/Ricardo.webp" 
             alt="Ricardo Borges"
@@ -67,6 +75,9 @@ const RiskBioSection = () => {
         </div>
 
         <div className="text-center mt-10 md:mt-16">
+          <p className="reveal-element font-accent text-gold text-base md:text-[19px] mb-6 md:mb-8">
+            Clique no botão abaixo e acesse o treinamento com essa condição única.
+          </p>
           <a href="#offer" className="btn-cta btn-cta-large reveal-element text-sm md:text-lg !px-8 !py-5 md:!px-16 md:!py-6" aria-label="Destravar minha mente por R$ 27,90">
             SIM, QUERO DESTRAVAR MINHA MENTE POR R$ 27,90
           </a>

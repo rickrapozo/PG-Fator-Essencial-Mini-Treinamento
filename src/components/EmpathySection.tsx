@@ -20,6 +20,13 @@ const EmpathySection = () => {
               quem você ama ou abandonando os seus projetos pela metade.
             </p>
 
+            {/* Bloco de pergunta para o mobile, exibido antes da resposta */}
+            <div className="relative font-accent text-[clamp(22px,4vw,38px)] leading-[1.3] text-gold-light lg:hidden mt-8 mb-4">
+              <span className="absolute -top-6 -left-4 text-[60px] opacity-20 font-display">"</span>
+              Você olha ao redor e se pergunta: 'O que eu estou fazendo de errado? Será que o problema
+              sou eu?'
+            </div>
+
             <div className="border-l-4 border-gold bg-bg-card p-5 md:p-8 my-6 md:my-10">
               <h4 className="font-display text-xl md:text-2xl text-gold mb-2">A resposta é NÃO.</h4>
               <p className="text-foreground text-sm md:text-base">
@@ -29,7 +36,7 @@ const EmpathySection = () => {
             </div>
           </div>
 
-          <div className="reveal-element">
+          <div className="reveal-element hidden lg:block">
             <div className="relative font-accent text-[clamp(22px,4vw,38px)] leading-[1.3] text-gold-light">
               <span className="absolute -top-6 -left-4 md:-top-10 md:-left-8 text-[60px] md:text-[100px] opacity-20 font-display">"</span>
               Você olha ao redor e se pergunta: 'O que eu estou fazendo de errado? Será que o problema
