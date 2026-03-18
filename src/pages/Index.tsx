@@ -5,6 +5,7 @@ import MechanismSection from "@/components/MechanismSection";
 import SolutionSection from "@/components/SolutionSection";
 import OfferSection from "@/components/OfferSection";
 import RiskBioSection from "@/components/RiskBioSection";
+import FaqSection from "@/components/FaqSection";
 import PageFooter from "@/components/PageFooter";
 
 const Index = () => (
@@ -16,6 +17,7 @@ const Index = () => (
     <SolutionSection />
     <OfferSection />
     <RiskBioSection />
+    <FaqSection />
     <PageFooter />
   </>
 );
