@@ -4,7 +4,7 @@ const EmpathySection = () => {
   const ref = useReveal();
 
   return (
-    <section ref={ref} className="py-24 bg-section-primary">
+    <section ref={ref} className="py-12 md:py-24 bg-section-primary">
       <div className="container">
         <div className="grid grid-cols-1 lg:grid-cols-[1.2fr_0.8fr] gap-16 items-center">
           <div className="reveal-element">

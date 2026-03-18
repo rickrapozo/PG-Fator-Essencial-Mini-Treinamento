@@ -10,7 +10,7 @@ const StickyHeader = () => {
   }, []);
 
   return (
-    <header className="fixed top-0 w-full z-[1000] bg-bg-primary/80 backdrop-blur-md border-b border-gold-dark/30 transition-all duration-300">
+    <header className="hidden md:block fixed top-0 w-full z-[1000] bg-bg-primary/80 backdrop-blur-md border-b border-gold-dark/30 transition-all duration-300">
       <div className="container flex justify-between items-center py-4">
         <div>
           <span className="font-display text-lg font-black tracking-[2px] text-foreground">FATOR ESSENCIAL</span>
