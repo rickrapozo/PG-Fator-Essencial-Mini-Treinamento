@@ -1,7 +1,13 @@
 import ArtDecoSeparator from "./ArtDecoSeparator";
 import { useReveal } from "./useReveal";
+import VSLPlayer from "./VSLPlayer";
 
-const HeroSection = () => {
+interface HeroSectionProps {
+  onVideoStart: () => void;
+  showOffer: boolean;
+}
+
+const HeroSection = ({ onVideoStart, showOffer }: HeroSectionProps) => {
   const ref = useReveal();
 
   return (
@@ -33,18 +39,16 @@ const HeroSection = () => {
           querendo mudar.
         </p>
 
-        {/* Video placeholder */}
-        <div className="reveal-element w-full max-w-[280px] sm:max-w-[320px] aspect-[9/16] bg-black mx-auto mb-8 md:mb-12 border border-gold-dark flex items-center justify-center relative shadow-[0_30px_60px_-20px_rgba(0,0,0,0.8)] rounded-xl overflow-hidden">
-          <div className="w-14 h-14 md:w-16 md:h-16 border-2 border-gold rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 hover:bg-gold/10 cursor-pointer">
-            <svg viewBox="0 0 24 24" width="24" height="24" className="fill-gold ml-1 md:w-8 md:h-8">
-              <path d="M8 5v14l11-7z" />
-            </svg>
-          </div>
+        {/* VSL Player */}
+        <div className="reveal-element w-full max-w-[340px] md:max-w-[380px] mx-auto mb-8 md:mb-12">
+          <VSLPlayer videoId="0Tf0a-tymY8" onStart={onVideoStart} />
         </div>
 
-        <a href="#offer" className="btn-cta reveal-element text-xs md:text-sm !px-6 !py-4 md:!px-10 md:!py-5" aria-label="Acessar o treinamento por R$ 27,90">
-          QUERO DESCOBRIR O QUE ESTÁ ME TRAVANDO
-        </a>
+        {showOffer && (
+          <a href="#offer" className="btn-cta reveal-element text-xs md:text-sm !px-6 !py-4 md:!px-10 md:!py-5 animate-in fade-in zoom-in duration-500" aria-label="Acessar o treinamento por R$ 27,90">
+            QUERO DESCOBRIR O QUE ESTÁ ME TRAVANDO
+          </a>
+        )}
 
         <div className="reveal-element mt-8 md:mt-0">
           <ArtDecoSeparator />
