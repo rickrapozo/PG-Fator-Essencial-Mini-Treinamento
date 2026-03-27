@@ -53,12 +53,12 @@ const MechanismSection = () => {
             A CIÊNCIA EXPLICA
           </span>
           <h2 className="reveal-element font-display font-bold text-2xl md:text-4xl text-foreground mb-4">
-            O 'Piloto Automático' que está sabotando os seus resultados
+            O <span className="text-gold">'Piloto Automático'</span> que está sabotando os seus resultados
           </h2>
           <p className="reveal-element text-sm md:text-lg text-text-secondary max-w-[680px] mx-auto">
             A ciência já comprovou que{" "}
             <span className="text-gold font-bold">{count}%</span> do que nós fazemos todos os dias é
-            controlado pelo nosso subconsciente. Ou seja: você age no 'piloto automático',{" "}
+            controlado pelo nosso <span className="text-foreground font-semibold">subconsciente</span>. Ou seja: você age no <span className="text-foreground font-semibold">'piloto automático'</span>,{" "}
             <span className="border-b-[2px] border-gold pb-[2px] text-foreground font-bold whitespace-nowrap">Sem Nem Perceber</span>.
           </p>
         </div>
@@ -69,10 +69,10 @@ const MechanismSection = () => {
           <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-20 h-[1px] bg-gold" />
           
           <p className="text-foreground/90 text-sm md:text-[17px] leading-[1.8]">
-            Desde a infância, o seu cérebro gravou regras e medos. Se você cresceu ouvindo que <span className="text-foreground font-semibold italic">"dinheiro é sujo"</span> ou sentindo que <span className="text-foreground font-semibold italic">"não era bom o suficiente"</span>, o seu cérebro gravou isso como uma verdade absoluta.
+            Desde a infância, o seu cérebro gravou regras e medos. Se você cresceu ouvindo que <span className="text-foreground font-semibold italic">"dinheiro é sujo"</span> ou sentindo que <span className="text-foreground font-semibold italic">"não era bom o suficiente"</span>, o seu cérebro gravou isso como uma <span className="text-gold font-bold">verdade absoluta</span>.
           </p>
           <p className="text-gold font-accent text-base md:text-[19px] leading-[1.6] mt-4 md:mt-6">
-            E é aqui que o ciclo da autossabotagem destrói os seus resultados. Existe uma engrenagem na sua mente chamada <span className="font-bold border-b border-gold/50 pb-1">Fator Essencial</span>. Ela funciona em 5 passos exatos:
+            E é aqui que o ciclo da autossabotagem destrói os seus resultados. Existe uma engrenagem na sua mente chamada <span className="font-bold border-b border-gold/50 pb-1 text-gold">Fator Essencial</span>. Ela funciona em 5 passos exatos:
           </p>
         </div>
 
@@ -89,7 +89,7 @@ const MechanismSection = () => {
               <div className="absolute -left-[46px] md:-left-[55px] top-4 md:top-6 w-[40px] h-[40px] md:w-[50px] md:h-[50px] bg-bg-primary border border-gold text-gold rounded-full flex items-center justify-center font-bold text-sm md:text-base z-[3]">
                 {step.num}
               </div>
-              <h3 className="font-display text-lg md:text-xl mb-1 md:mb-2 text-foreground">{step.title}</h3>
+              <h3 className="font-display text-lg md:text-xl mb-1 md:mb-2 text-gold font-bold">{step.title}</h3>
               <p className="text-foreground text-sm md:text-base">{step.desc}</p>
             </div>
           ))}

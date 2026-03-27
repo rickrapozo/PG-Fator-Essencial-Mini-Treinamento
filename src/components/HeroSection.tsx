@@ -34,9 +34,7 @@ const HeroSection = ({ onVideoStart, showOffer }: HeroSectionProps) => {
         </h1>
 
         <p className="reveal-element text-sm md:text-lg text-text-secondary max-w-[680px] mx-auto mb-8 md:mb-12">
-          Descubra o padrão silencioso que está travando o seu dinheiro, os seus relacionamentos e a
-          sua energia — e veja como a neurociência explica por que você repete os mesmos erros, mesmo
-          querendo mudar.
+          A <span className="text-foreground font-semibold">Neurociência descobriu um "Padrão Silencioso"</span> que mantém <span className="text-foreground">97% dos brasileiros</span> vivendo no modo sobrevivência. Veja como "desligar" esse interruptor e recuperar sua energia financeira e mental em <span className="text-gold font-bold italic">8 dias</span>.
         </p>
 
         {/* VSL Player */}
@@ -45,7 +43,7 @@ const HeroSection = ({ onVideoStart, showOffer }: HeroSectionProps) => {
         </div>
 
         {showOffer && (
-          <a href="#offer" className="btn-cta reveal-element text-xs md:text-sm !px-6 !py-4 md:!px-10 md:!py-5 animate-in fade-in zoom-in duration-500" aria-label="Acessar o treinamento por R$ 27,90">
+          <a href="#offer" className="btn-cta btn-pulse text-xs md:text-sm !px-6 !py-4 md:!px-10 md:!py-5" aria-label="Acessar o treinamento por R$ 27,90">
             QUERO DESCOBRIR O QUE ESTÁ ME TRAVANDO
           </a>
         )}

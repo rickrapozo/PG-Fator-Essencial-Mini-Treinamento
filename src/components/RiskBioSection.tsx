@@ -14,9 +14,9 @@ const RiskBioSection = () => {
           </svg>
           <h2 className="font-display font-bold text-2xl md:text-3xl text-gold mb-3 md:mb-4">7 DIAS DE GARANTIA</h2>
           <p className="text-foreground text-sm md:text-lg">
-            Seu Risco é Zero. Assista às aulas. Faça o teste. Se em 7 dias você achar que não serviu
-            para nada e que a sua mente continuou a mesma, você aperta um botão e eu devolvo os seus
-            R$ 27,90. O risco é todo meu.
+            Seu <span className="text-gold font-bold">Risco é Zero</span>. Assista às aulas. Faça o teste. Se em <span className="text-gold font-bold">7 dias</span> você achar que não serviu
+            para nada e que a sua mente continuou a mesma, você aperta um botão e eu <span className="text-foreground font-bold underline decoration-gold/50 underline-offset-4">devolvo os seus
+            R$ 27,90</span>. O risco é todo meu.
           </p>
         </div>
 
@@ -66,10 +66,10 @@ const RiskBioSection = () => {
         <div className="reveal-element border-l-4 border-[hsl(15_70%_35%)] p-5 md:p-8 bg-[hsl(15_70%_35%/0.05)] my-8 md:my-10">
           <p className="text-foreground text-sm md:text-base">
             <strong>Atenção:</strong> Esse treinamento foi desenvolvido para ser 100% prático, focando
-            em identificar a causa do problema. Mas tome uma decisão agora, porque cada dia que passa
-            você perde energia, dinheiro e saúde. O único risco real é você fechar esta página,
-            continuar consumindo conteúdos rasos e chegar ao final deste ano com as mesmas
-            reclamações, o mesmo cansaço e a mesma conta bancária. Pare de tentar adivinhar o que está
+            em identificar a causa do problema. Mas <span className="text-foreground font-bold">tome uma decisão agora</span>, porque cada dia que passa
+            você perde energia, dinheiro e saúde. O único <span className="text-foreground font-bold">risco real</span> é você fechar esta página,
+            continuar consumindo conteúdos rasos e chegar ao final deste ano com as <span className="text-foreground font-bold italic">mesmas
+            reclamações, o mesmo cansaço e a mesma conta bancária</span>. Pare de tentar adivinhar o que está
             errado.
           </p>
         </div>
@@ -78,7 +78,7 @@ const RiskBioSection = () => {
           <p className="reveal-element font-accent text-gold text-base md:text-[19px] mb-6 md:mb-8">
             Clique no botão abaixo e acesse o treinamento com essa condição única.
           </p>
-          <a href="#offer" className="btn-cta btn-cta-large reveal-element text-sm md:text-lg !px-8 !py-5 md:!px-16 md:!py-6" aria-label="Destravar minha mente por R$ 27,90">
+          <a href="#offer" className="btn-cta btn-pulse btn-cta-large reveal-element text-sm md:text-lg !px-8 !py-5 md:!px-16 md:!py-6" aria-label="Destravar minha mente por R$ 27,90">
             SIM, QUERO DESTRAVAR MINHA MENTE POR R$ 27,90
           </a>
         </div>

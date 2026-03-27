@@ -30,7 +30,18 @@ const OfferSection = () => {
         </p>
 
         <div className="reveal-element bg-bg-card border border-gold-dark/50 rounded-lg p-6 md:p-10 max-w-[800px] mx-auto mb-10 text-left shadow-[0_10px_40px_-10px_rgba(212,175,55,0.1)]">
-          <h3 className="font-display text-xl md:text-2xl text-gold mb-6 font-semibold text-center">
+          {/* Product Mockup Image */}
+          <div className="mb-10 md:mb-14 text-center">
+            <div className="inline-block p-[2px] md:p-[3px] bg-gradient-to-b from-gold/40 via-gold to-gold/40 rounded-[22px] shadow-[0_25px_70px_-15px_rgba(212,175,55,0.3)]">
+              <img 
+                src="/Mockup-fator-essencial-com-imagem-ricardo.webp" 
+                alt="Pacote Fator Essencial"
+                className="w-full h-auto max-w-[620px] mx-auto rounded-[20px] block border border-background/50 shadow-inner"
+              />
+            </div>
+          </div>
+
+          <h3 className="font-display text-xl md:text-2xl text-gold mb-8 md:mb-10 font-semibold text-center">
             Veja exatamente o que você recebe hoje, com acesso imediato:
           </h3>
           <ul className="space-y-4 md:space-y-6">
@@ -41,7 +52,7 @@ const OfferSection = () => {
                 </svg>
               </div>
               <p className="text-foreground text-sm md:text-base leading-relaxed">
-                <strong className="text-gold-light font-display tracking-wide">Mini Treinamento (8 Aulas Rápidas):</strong> Direto ao ponto, para você assistir no celular durante o almoço ou no ônibus.
+                <strong className="text-gold-light font-display tracking-wide">Mini Treinamento: Identificando Padrões Sabotadores:</strong> Direto ao ponto, para você assistir no celular durante o almoço ou no ônibus.
               </p>
             </li>
             <li className="flex items-start gap-4">
@@ -87,7 +98,7 @@ const OfferSection = () => {
               <span className="flex items-center gap-1.5"><div className="w-1.5 h-1.5 bg-gold rounded-full" /> Acesso imediato</span>
             </div>
             
-            <a href="#" className="btn-cta text-sm md:text-base !px-8 !py-5 md:!px-12 md:!py-6 w-full sm:w-auto shadow-[0_0_30px_-5px_rgba(212,175,55,0.4)]" aria-label="Acessar o treinamento agora">
+            <a href="#" className="btn-cta btn-pulse text-sm md:text-base !px-8 !py-5 md:!px-12 md:!py-6 w-full sm:w-auto shadow-[0_0_30px_-5px_rgba(212,175,55,0.4)]" aria-label="Acessar o treinamento agora">
               QUERO ACESSAR AGORA
             </a>
           </div>

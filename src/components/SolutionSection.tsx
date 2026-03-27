@@ -38,11 +38,11 @@ const SolutionSection = () => {
       <div className="container">
         <div className="text-center">
           <h2 className="reveal-element font-display font-bold text-2xl md:text-4xl text-foreground inline-block relative mb-10 md:mb-16">
-            Como fazer um 'Raio-X' na sua mente e encontrar o problema
+            Como fazer um <span className="text-gold">'Raio-X'</span> na sua mente e encontrar o problema
             <span className="absolute bottom-[-15px] left-0 w-[60%] h-[3px] bg-gradient-to-r from-gold via-gold-light to-gold" />
           </h2>
           <p className="reveal-element text-sm md:text-lg text-text-secondary max-w-[680px] mx-auto mb-8 md:mb-12">
-            Você não pode vencer um inimigo que não consegue ver. Para sair desse ciclo de cansaço e
+            Você <span className="text-foreground font-semibold">não pode vencer um inimigo que não consegue ver</span>. Para sair desse ciclo de cansaço e
             falta de dinheiro, o primeiro passo é identificar exatamente quais são os pensamentos e
             emoções que estão te travando.
           </p>
@@ -55,11 +55,11 @@ const SolutionSection = () => {
               Foi por isso que eu criei o
             </h3>
             <h4 className="font-display text-2xl md:text-3xl lg:text-[34px] text-foreground font-bold leading-tight mb-4 md:mb-6">
-              Mini Treinamento: Identificando Padrões Sabotadores.
+              <span className="text-gold">Mini Treinamento:</span> Identificando Padrões Sabotadores.
             </h4>
             
             <p className="text-text-secondary text-sm md:text-[17px] leading-[1.8] mb-6">
-              Não é um curso longo com palavras difíceis. São aulas curtas, rápidas e direto ao ponto. Você pode assistir no celular, no caminho para o trabalho ou no seu horário de almoço.
+              Não é um curso longo com palavras difíceis. São aulas <span className="text-foreground font-bold">curtas, rápidas e direto ao ponto</span>. Você pode assistir no <span className="text-foreground font-bold italic">celular</span>, no caminho para o trabalho ou no seu horário de almoço.
             </p>
             
             <div className="pt-5 md:pt-6 border-t border-gold/10">

@@ -9,14 +9,14 @@ const EmpathySection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-[1.2fr_0.8fr] gap-8 md:gap-16 items-center">
           <div className="reveal-element">
             <p className="text-base md:text-[17px] leading-[1.8] text-foreground">
-              "Parece que você está carregando um peso invisível nas costas, não é?"
+              "Parece que você está carregando um <span className="text-gold font-bold">peso invisível</span> nas costas, não é?"
             </p>
             <br />
             <p className="text-base md:text-[17px] leading-[1.8] text-foreground">
               Você acorda cedo. Você cumpre suas obrigações. Você tenta economizar, tenta melhorar de
               vida, promete para si mesmo que as coisas vão ser diferentes na segunda-feira... Mas, no
-              fundo, bate aquela frustração. O dinheiro não sobra no fim do mês. A vontade de fazer
-              algo novo some debaixo do cansaço. E, muitas vezes, você acaba descontando o estresse em
+              fundo, bate aquela <span className="text-foreground font-semibold">frustração</span>. O <span className="text-foreground font-semibold">dinheiro não sobra</span> no fim do mês. A vontade de fazer
+              algo novo <span className="text-foreground font-semibold">some debaixo do cansaço</span>. E, muitas vezes, você acaba descontando o estresse em
               quem você ama ou abandonando os seus projetos pela metade.
             </p>
 
@@ -28,9 +28,9 @@ const EmpathySection = () => {
             </div>
 
             <div className="border-l-4 border-gold bg-bg-card p-5 md:p-8 my-6 md:my-10">
-              <h4 className="font-display text-xl md:text-2xl text-gold mb-2">A resposta é NÃO.</h4>
+              <h4 className="font-display text-xl md:text-2xl text-gold mb-2">A resposta é <span className="underline decoration-gold/50">NÃO</span>.</h4>
               <p className="text-foreground text-sm md:text-base">
-                A culpa não é sua. Não é preguiça. Não é falta de inteligência. E definitivamente não
+                A <span className="text-foreground font-bold italic underline-offset-4 underline decoration-gold/30">culpa não é sua</span>. Não é preguiça. Não é falta de inteligência. E definitivamente não
                 é falta de esforço.
               </p>
             </div>
@@ -46,7 +46,7 @@ const EmpathySection = () => {
         </div>
 
         <p className="reveal-element text-lg md:text-2xl text-center font-accent text-gold mt-10 md:mt-16">
-          O problema é que ninguém te entregou o manual de como o seu cérebro funciona.
+          O problema é que ninguém te entregou o <span className="text-foreground font-bold">manual de como o seu cérebro funciona</span>.
         </p>
       </div>
     </section>
